@@ -38,6 +38,7 @@ class Strings {
 
 			
 		}
+		return true;
 	}
 
 	public static boolean isAbecedarian(String str){
@@ -48,6 +49,7 @@ class Strings {
 			return false;
 			}
 		}
+		return true;
 
 	}
 	
