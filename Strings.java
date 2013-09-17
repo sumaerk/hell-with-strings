@@ -52,5 +52,20 @@ class Strings {
 		return true;
 
 	}
+
+	public static boolean isPalandrome(String s){
+		boolean is = true;
+		for(in i =0; i < s.length; i++)
+			if(is){
+				if (s.length(i, i+1).equals(s.subdtring(s.length()-(i+1))) {
+					is=true;
+					
+				}else{
+					return false;
+				}
+			}
+
+			return is;
+	}
 	
 }
